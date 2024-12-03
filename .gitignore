@@ -1,0 +1,9 @@
+data/
+archive/
+model/
+output/
+input/
+__pycache__/
+.venv/
+seq2seq_model.pth
+test_normalisation.txt
