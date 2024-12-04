@@ -156,7 +156,7 @@ if __name__ == "__main__":
 
     normalized_words = []
 
-    for test_str in test_strs:
+    for test_str in test_strs[:100]:
         output_str = test_model(model, test_str.lower(), vocab)
         print(f"Input: {test_str}, Output: {output_str}")
         normalized_words.append(output_str)
